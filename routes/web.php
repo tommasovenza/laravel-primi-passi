@@ -26,7 +26,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home_page_laravel', function () {
+Route::get('/home', function () {
     return view('home');
 })->name('home');
 

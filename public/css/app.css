@@ -16,6 +16,12 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
+h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
 .white {
   color: #fff !important;
 }
@@ -123,14 +129,73 @@ footer .upper-footer .info ul li a {
   color: #fff;
 }
 
-main {
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  padding: 80px 0;
+}
+
+.hero .hero-title {
+  max-width: 650px;
+  color: #1b3c59;
+}
+
+.hero .hero-title p {
+  font-size: 22px;
+}
+
+.hero .hero-title strong {
+  font-weight: 500;
+}
+
+.hero .hero-title ul li {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.hero .hero-image img {
+  width: 90%;
+}
+
+section {
+  background-color: #1b3c59;
+  margin-bottom: 100px;
+}
+
+section .fascetta {
+  width: 1000px;
+  margin: auto;
+  padding: 80px 0;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+section .fascetta .testo {
+  flex-basis: 300px;
+  text-align: center;
+}
+
+section .fascetta .testo h3 {
+  font-size: 45px;
+  font-weight: 400;
+}
+
+section .fascetta .testo p {
+  font-size: 22px;
+}
+
+main .privacy {
   width: 60%;
   margin: 100px auto;
 }
 
-main h1,
-main h3 {
-  margin: 30px 0;
+main .privacy h1,
+main .privacy h3 {
+  margin: 20px 0;
 }
 
 main ul li {
