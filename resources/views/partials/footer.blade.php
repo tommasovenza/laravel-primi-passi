@@ -1,7 +1,7 @@
 <footer>
    
     <div class="upper-footer">
-        <div class="logo">
+        <div class="footer-logo">
             <img src="{{ asset('img/logo-white.png') }}" alt="logo-bianco">
 
             <span>Sede operativa</span>

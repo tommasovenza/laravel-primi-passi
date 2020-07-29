@@ -98,16 +98,16 @@ footer .upper-footer {
   margin: auto;
 }
 
-footer .upper-footer .logo {
+footer .upper-footer .footer-logo {
   display: flex;
   flex-direction: column;
 }
 
-footer .upper-footer .logo span {
+footer .upper-footer .footer-logo span {
   font-size: 13px;
 }
 
-footer .upper-footer .logo img {
+footer .upper-footer .footer-logo img {
   width: 150px;
   margin-bottom: 10px;
 }
