@@ -64,6 +64,17 @@ header .hamburger-menu {
 }
 
 @media all and (max-width: 1400px) {
+  .logo {
+    position: relative;
+  }
+
+  .logo img {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   .nav-container {
     display: none;
   }
@@ -75,5 +86,40 @@ header .hamburger-menu {
 
 footer {
   background-color: #1b3c59;
+  padding: 150px 0;
+  color: white;
+}
+
+footer .upper-footer {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+  width: 60%;
+  margin: auto;
+}
+
+footer .upper-footer .logo {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .upper-footer .logo span {
+  font-size: 13px;
+}
+
+footer .upper-footer .logo img {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+footer .upper-footer .info ul li {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+footer .upper-footer .info ul li a {
+  color: #fff;
 }
 
