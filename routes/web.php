@@ -30,6 +30,9 @@ Route::get('/home_page_laravel', function () {
     return view('home');
 })->name('home');
 
+Route::get('/privacy-policy', function () {
+    return view('pp');
+})->name('privacy');
 
 
 
