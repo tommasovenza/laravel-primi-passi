@@ -123,3 +123,17 @@ footer .upper-footer .info ul li a {
   color: #fff;
 }
 
+main {
+  width: 60%;
+  margin: 100px auto;
+}
+
+main h1,
+main h3 {
+  margin: 30px 0;
+}
+
+main ul li {
+  display: block;
+}
+
