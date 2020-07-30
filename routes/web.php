@@ -34,6 +34,10 @@ Route::get('/privacy-policy', function () {
     return view('pp');
 })->name('privacy');
 
+Route::get('/domande-frequenti', function () {
+    return view('faq');
+})->name('faq');
+
 
 
 

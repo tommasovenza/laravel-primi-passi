@@ -202,3 +202,27 @@ main ul li {
   display: block;
 }
 
+main .contenitore {
+  display: flex;
+  justify-content: center;
+}
+
+main .contenitore h2 {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+main .contenitore .sinistra {
+  background-color: #e8ebf1;
+  padding: 50px;
+  flex-basis: 46%;
+  color: #1b3c59;
+}
+
+main .contenitore .destra {
+  background-color: #1b3c59;
+  padding: 50px;
+  flex-basis: 46%;
+  color: #fff;
+}
+

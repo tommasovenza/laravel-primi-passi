@@ -1,0 +1,24 @@
+main .contenitore {
+    
+    display: flex;
+    justify-content: center;
+    
+    h2 {
+        font-weight: 400;
+        font-size: 40px;
+    }
+
+    .sinistra {
+        background-color: #e8ebf1;
+        padding: 50px;
+        flex-basis: 46%;
+        color: $primary_color;
+    }
+
+    .destra {
+        background-color: $primary_color;
+        padding: 50px;
+        flex-basis: 46%;
+        color: #fff;
+    }
+}
